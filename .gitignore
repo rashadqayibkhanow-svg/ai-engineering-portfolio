@@ -1,0 +1,20 @@
+# secrets — never commit API keys
+.env
+*.key
+secrets/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# data / outputs that shouldn't ship
+data/*.pdf
+outputs/
+*.log
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
